@@ -4,3 +4,27 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
+
+.App ul {
+  list-style: none;
+  display: flex;
+  margin: 20px auto;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.App a {
+  text-decoration: none;
+  color: rgb(15, 109, 153);
+}
+
+.App a:hover,
+.App a:active,
+.App a.active {
+  color:rgb(1, 15, 22);
+  transition: 0.1s ease-in-out;
+  transform: scale(1.05);
+}
